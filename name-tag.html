@@ -1,0 +1,64 @@
+<html>
+    <body>
+        <div class="input-name">
+            <input type="text" id="setNameInput">
+            <button id="setNameButton">Set New Name</button>
+        </div>
+        <div class="name-badge">
+            <div class="label">
+                <span class="big-text">Hello</span>
+                <span>my name is</span>
+            </div>
+            <div class="name" id="yourName">Jack</div>    
+        </div>
+    </body>
+    <style>
+        .input-name {
+            margin-bottom: 15px;
+        }
+        .label span {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        body {
+            background: #404040;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .name {
+            font-size: 36px;
+            padding-top: 20px;
+            padding-bottom: 25px;
+            width: 100%;
+            background: white;
+            text-align: center;
+            bottom: 10px;
+            
+        }
+        .name-badge {
+            width: 230px;
+            height: 175px;
+            background: red;
+            border-radius: 20px;
+            box-shadow: 3px 6px rgb(31, 28, 28);
+        }
+        .big-text {
+            color: white;
+            font-size: 40px;
+            text-align: center;
+        }
+        .label {
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .label *{
+            color: white;
+            text-align: center;
+            
+        }
+    
+    </style>
+    <script src="index.js"></script>
+</html>
